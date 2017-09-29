@@ -1,0 +1,40 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "globals": {
+        "React": true,
+        "ContactDetails": true,
+        "NewContact": true,
+        "ListContacts": true,
+        "ReactDOM": true,
+        "EmailData": true,
+        "state": true,
+        "setState": true
+    },
+    "rules": {
+        "indent": [
+            "error",
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-unused-vars": 0
+    }
+}

@@ -1,0 +1,87 @@
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #555;
+    text-align: center;
+}
+header {
+    background-color: #555;
+    color: #fff;
+    height: 5em;
+    line-height: 5em;
+    margin-bottom: 3em;
+}
+.container {
+    margin-bottom: 3em;
+}
+li {
+    list-style: none;
+    padding: 0.5em;
+    color: #555;
+}
+a{
+    text-decoration: none;
+}
+span {
+    padding: 10px;
+}
+li {
+    list-style: none;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    transition: all .4s ease-out;
+}
+li:hover {
+    background-color: #f7f7f7;
+}
+li a {
+    color: #555;
+}
+li:hover a {
+    color: #333;
+}
+form {
+    width: fit-content;
+    margin: auto;
+}
+input[type="text"] {
+    display: block;
+    margin: 1px auto 12px auto;
+    width: 30em;
+    padding: 6px;
+    font-size: 1rem;
+    color: #333;
+}
+button {
+    border: none;
+    background-color: #555;
+    color: #fff;
+    border-radius: 50%;
+    margin-left: 10px;
+    height: 1.5rem;
+    width: 1.5rem;
+    float: right;
+    transition: all .4s ease-out;
+}
+button:hover {
+    background-color: #777;
+    cursor: pointer;
+}
+.button {
+    color: #fff;
+    background-color: #555;
+    padding: 12px;
+    border-radius: 20px;
+    margin: 10px;
+    transition: all .4s ease-out;
+}
+.button:hover {
+    background-color: #777;
+    cursor: pointer;
+}
+.actionBar {
+    padding: 30px 0;
+}
